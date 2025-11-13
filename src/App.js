@@ -377,13 +377,10 @@ function App() {
             </div>
           </div>
           <div className="hero-right">
-            <div className="photo-container">
-              <div className="photo-placeholder">
-                <p>Your Photo</p>
-                <small>Add later via Settings</small>
-              </div>
-            </div>
-          </div>
+  <div className="photo-container">
+    <img src="/photo.jpg" alt="Thabang Serone" className="profile-photo" />
+  </div>
+</div>
         </div>
         
         <div className="scroll-indicator">
