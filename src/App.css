@@ -154,7 +154,7 @@ nav.scrolled {
 .photo-container {
   position: relative;
   width: 100%;
-  max-width: 100px;
+  max-width: 450 px;
   margin-left: auto;
 }
 
