@@ -175,6 +175,20 @@ nav.scrolled {
   transition: transform 0.3s ease;
 }
 
+.profile-photo {
+  width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: 2rem;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+  transform: rotate(-2deg);
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: rotate(0deg);
+}
+
 .photo-placeholder:hover {
   transform: rotate(0deg);
 }
